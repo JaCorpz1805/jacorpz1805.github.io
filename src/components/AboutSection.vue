@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+const base = import.meta.env.BASE_URL
 const hasPhoto = ref(true)
 </script>
 
@@ -15,7 +16,7 @@ const hasPhoto = ref(true)
         <div class="flex justify-center">
           <img
             v-if="hasPhoto"
-            src="/photo.jpg"
+            :src="`${base}photo.jpg`"
             alt="Portrait of Your Name"
             class="h-64 w-64 rounded-2xl object-cover shadow-lg"
             @error="hasPhoto = false"

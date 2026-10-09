@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const base = import.meta.env.BASE_URL
+</script>
 
 <template>
   <section
@@ -32,7 +34,7 @@
           Contact Me
         </a>
         <a
-          href="/curriculumvitae_jamesafcorpuz.pdf"
+          :href="`${base}curriculumvitae_jamesafcorpuz.pdf`"
           download="James_Allistaire_F._Corpuz-Resume.pdf"
           class="rounded-lg border border-blue-600 px-6 py-3 font-medium text-blue-600 transition hover:-translate-y-0.5 hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
         >
