@@ -23,7 +23,7 @@ export const projects: Project[] = [
     title: 'Brick Breaker Game',
     description: 'A 2D brick breaker game made with Java Swing.',
     technologies: ['Java', 'Swing'],
-    image: '/projects/brick-breaker-java.jpg',
+    image: '/projects/brickbreaker.jpg',
     githubUrl: 'https://github.com/JaCorpz1805/The-Brick-Breaker-Beginner-in-Java.git',
   },
 ]
