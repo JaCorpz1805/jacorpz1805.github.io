@@ -15,7 +15,7 @@ export const projects: Project[] = [
     title: 'Mouse Interactive Spinning Globe',
     description: 'Spinning Globe is a mouse-controlled GUI',
     technologies: ['Python', 'Tkinter'],
-    image: '/projects/mouse-controlled-spinning-circle-screenshot.jpg',
+    image: '/projects/Mouse-Controlled-Spinning-Circle Screenshot.jpg',
     githubUrl: 'https://github.com/JaCorpz1805/The-3D-Globe-with-Tkinter',
   },
   {
