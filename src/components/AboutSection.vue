@@ -15,7 +15,7 @@ const hasPhoto = ref(true)
         <div class="flex justify-center">
           <img
             v-if="hasPhoto"
-            src="/myportfoliophoto.jpg"
+            src="/photo.jpg"
             alt="Portrait of Your Name"
             class="h-64 w-64 rounded-2xl object-cover shadow-lg"
             @error="hasPhoto = false"
